@@ -10,7 +10,7 @@ const UserSubmission = ({ submission }) => {
         {submission.images.map((image, index) => (
           <img
             key={index}
-            src={`http://localhost:5000/uploads/${image}`}
+            src={`https://task1-jahanavisurya.onrender.com/uploads/${image}`}
             alt={`Uploaded by ${submission.name}`}
             className="thumbnail"
           />

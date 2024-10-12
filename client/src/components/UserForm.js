@@ -17,7 +17,7 @@ const UserForm = () => {
     }
 
     try {
-      await axios.post('http://localhost:5000/api/submit', formData, {
+      await axios.post('https://task1-jahanavisurya.onrender.com/api/submit', formData, {
         headers: { 'Content-Type': 'multipart/form-data' }
       });
       alert('Submission successful!');
